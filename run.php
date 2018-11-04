@@ -113,6 +113,7 @@ if ( file_exists( $gFile ) ) {
 }
 
 $fonts             = array();
+$php_fonts         = array();
 $arrContextOptions = array(
 	"ssl" => array(
 		"verify_peer"      => false,
@@ -127,10 +128,14 @@ foreach ( $result->items as $font ) {
 		'variants' => getVariants( $font->variants ),
 		'subsets'  => getSubsets( $font->subsets ),
 	);
+
+	$php_fonts[ $font->family ] = array(
+		'variants' => getVariants( $font->variants ),
+	);
 }
 $data = json_encode( $fonts );
 file_put_contents( $gFile, $data );
-file_put_contents( $gFilePHP, var_export( $fonts, true ) );
+file_put_contents( $gFilePHP, var_export( $php_fonts, true ) );
 
 echo "Saved new JSON\n\n";
 
@@ -140,7 +145,7 @@ echo shell_exec( 'git add -A' );
 
 $build_number = getenv( 'TRAVIS_BUILD_NUMBER' );
 echo shell_exec( "git commit -m \"Travis build: $build_number [skip ci]\"" );
-$gh_token = getenv( 'GF_TOKEN' );
+$gh_token = getenv( 'GH_TOKEN' );
 echo shell_exec( "git remote set-url origin https://$gh_token@github.com/wpsf/google-fonts.git > /dev/null 2>&1" );
 echo "\n\n";
 
