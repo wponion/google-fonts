@@ -129,13 +129,11 @@ foreach ( $result->items as $font ) {
 		'subsets'  => getSubsets( $font->subsets ),
 	);
 
-	$php_fonts[ $font->family ] = array(
-		'variants' => getVariants( $font->variants ),
-	);
+	$php_fonts[ $font->family ] = getVariants( $font->variants );
 }
 $data = json_encode( $fonts );
 file_put_contents( $gFile, $data );
-file_put_contents( $gFilePHP, var_export( $php_fonts, true ) );
+file_put_contents( $gFilePHP, '<?php   return '.var_export( $php_fonts, true ) );
 
 echo "Saved new JSON\n\n";
 
