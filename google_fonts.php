@@ -3400,6 +3400,24 @@
     700 => 'Bold 700',
     900 => 'Black 900',
   ),
+  'Noto Sans SC' => 
+  array (
+    100 => 'Thin 100',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    700 => 'Bold 700',
+    900 => 'Black 900',
+  ),
+  'Noto Sans TC' => 
+  array (
+    100 => 'Thin 100',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    700 => 'Bold 700',
+    900 => 'Black 900',
+  ),
   'Noto Serif' => 
   array (
     400 => 'Regular 400',
