@@ -3445,6 +3445,26 @@
     700 => 'Bold 700',
     900 => 'Black 900',
   ),
+  'Noto Serif SC' => 
+  array (
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    900 => 'Black 900',
+  ),
+  'Noto Serif TC' => 
+  array (
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    900 => 'Black 900',
+  ),
   'Nova Cut' => 
   array (
     400 => 'Regular 400',
