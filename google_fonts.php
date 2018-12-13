@@ -127,6 +127,15 @@
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
   ),
+  'Aleo' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
+  ),
   'Alex Brush' => 
   array (
     400 => 'Regular 400',
@@ -475,6 +484,20 @@
     400 => 'Regular 400',
     700 => 'Bold 700',
     '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
+  ),
+  'B612' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
+  ),
+  'B612 Mono' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
@@ -963,6 +986,11 @@
   'Chango' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Charm' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
   ),
   'Charmonman' => 
   array (
@@ -2837,6 +2865,10 @@
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
   ),
+  'Major Mono Display' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Mako' => 
   array (
     400 => 'Regular 400',
@@ -4402,6 +4434,25 @@
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
   ),
+  'Sarabun' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+  ),
   'Sarala' => 
   array (
     400 => 'Regular 400',
@@ -4721,6 +4772,10 @@
     400 => 'Regular 400',
     700 => 'Bold 700',
   ),
+  'Staatliches' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Stalemate' => 
   array (
     400 => 'Regular 400',
@@ -4875,6 +4930,13 @@
   'Text Me One' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Thasadith' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'The Girl Next Door' => 
   array (
@@ -5183,6 +5245,18 @@
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+  ),
+  'ZCOOL KuaiLe' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'ZCOOL QingKe HuangYou' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'ZCOOL XiaoWei' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Zeyada' => 
   array (
