@@ -1,4 +1,4 @@
-<?php   return array (
+<?php if ( ! defined( \"ABSPATH\" ) ) { die; } return array (
   'ABeeZee' => 
   array (
     400 => 'Regular 400',
