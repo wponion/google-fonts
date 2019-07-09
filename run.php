@@ -116,8 +116,9 @@ date_default_timezone_set( 'UTC' );
 
 $output = shell_exec( 'git log -1' );
 echo shell_exec( 'git checkout -f master' );
-$gFile    = dirname( __FILE__ ) . '/google_fonts.json';
-$gFilePHP = dirname( __FILE__ ) . '/google_fonts.php';
+$gFile    = dirname( __FILE__ ) . '/fonts.json';
+$gFilePHP = dirname( __FILE__ ) . '/fonts.php';
+$gFileminPHP = dirname( __FILE__ ) . '/fonts-min.php';
 if ( file_exists( $gFile ) ) {
 	$weekback     = strtotime( date( 'jS F Y', time() + ( 60 * 60 * 24 * -7 ) ) );
 	$last_updated = filemtime( $gFile );
@@ -148,12 +149,13 @@ foreach ( $result->items as $font ) {
 }
 $data = json_encode( $fonts );
 file_put_contents( $gFile, $data );
-file_put_contents( $gFilePHP, '<?php   return '.var_export_min( $php_fonts, true ) );
+file_put_contents( $gFilePHP, '<?php   return '.var_export( $php_fonts, true ) );
+file_put_contents( $gFilePHP, '<?php   return '.var_export_min( $gFileminPHP, true ) );
 
 echo "Saved new JSON\n\n";
 
-echo shell_exec( 'git config --global user.email "travis@travis-ci.org"' );
-echo shell_exec( 'git config --global user.name "Travis CI"' );
+echo shell_exec( 'git config --global user.email "wponion@gmail.com"' );
+echo shell_exec( 'git config --global user.name "GFonts WPOnion"' );
 echo shell_exec( 'git add -A' );
 
 $build_number = getenv( 'TRAVIS_BUILD_NUMBER' );
