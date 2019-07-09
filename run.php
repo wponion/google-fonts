@@ -1,6 +1,21 @@
 <?php
 
 
+function var_export_min($var, $return = false) {
+    if (is_array($var)) {
+        $toImplode = array();
+        foreach ($var as $key => $value) {
+            $toImplode[] = var_export($key, true).'=>'.var_export_min($value, true);
+        }
+        $code = 'array('.implode(',', $toImplode).')';
+        if ($return) return $code;
+        else echo $code;
+    } else {
+        return var_export($var, $return);
+    }
+}
+
+
 /**
  * getSubsets Function.
  * Clean up the Google Webfonts subsets to be human readable
@@ -133,7 +148,7 @@ foreach ( $result->items as $font ) {
 }
 $data = json_encode( $fonts );
 file_put_contents( $gFile, $data );
-file_put_contents( $gFilePHP, '<?php   return '.var_export( $php_fonts, true ) );
+file_put_contents( $gFilePHP, '<?php   return '.var_export_min( $php_fonts, true ) );
 
 echo "Saved new JSON\n\n";
 
