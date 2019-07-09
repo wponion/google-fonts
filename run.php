@@ -150,7 +150,7 @@ foreach ( $result->items as $font ) {
 $data = json_encode( $fonts );
 file_put_contents( $gFile, $data );
 file_put_contents( $gFilePHP, '<?php   return '.var_export( $php_fonts, true ) );
-file_put_contents( $gFilePHP, '<?php   return '.var_export_min( $gFileminPHP, true ) );
+file_put_contents( $gFileminPHP, '<?php   return '.var_export_min( $php_fonts, true ) );
 
 echo "Saved new JSON\n\n";
 
