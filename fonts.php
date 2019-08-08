@@ -2791,6 +2791,34 @@
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
   ),
+  'Lexend Deca' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Lexend Exa' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Lexend Giga' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Lexend Mega' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Lexend Peta' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Lexend Tera' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Lexend Zetta' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Libre Barcode 128' => 
   array (
     400 => 'Regular 400',
