@@ -1,27 +1,18 @@
 <?php
-
-
-function var_export_min($var, $return = false) {
-    if (is_array($var)) {
-        $toImplode = array();
-        foreach ($var as $key => $value) {
-            $toImplode[] = var_export($key, true).'=>'.var_export_min($value, true);
-        }
-        $code = 'array('.implode(',', $toImplode).')';
-        if ($return) return $code;
-        else echo $code;
-    } else {
-        return var_export($var, $return);
-    }
+function var_export_min( $var, $return = false ) {
+	if ( is_array( $var ) ) {
+		$toImplode = array();
+		foreach ( $var as $key => $value ) {
+			$toImplode[] = var_export( $key, true ) . '=>' . var_export_min( $value, true );
+		}
+		$code = 'array(' . implode( ',', $toImplode ) . ')';
+		if ( $return )
+			return $code; else echo $code;
+	} else {
+		return var_export( $var, $return );
+	}
 }
 
-
-/**
- * getSubsets Function.
- * Clean up the Google Webfonts subsets to be human readable
- *
- * @since ReduxFramework 0.2.0
- */
 function getSubsets( $var ) {
 	$result = array();
 
@@ -31,23 +22,12 @@ function getSubsets( $var ) {
 		} else {
 			$name = ucfirst( $v );
 		}
-
 		$result[ $v ] = $name;
-		/*array_push( $result, array(
-			'id'   => $v,
-			'name' => $name,
-		) );*/
 	}
 
 	return array_filter( $result );
-}  //function
+}
 
-/**
- * getVariants Function.
- * Clean up the Google Webfonts variants to be human readable
- *
- * @since ReduxFramework 0.2.0
- */
 function getVariants( $var ) {
 	$result = array( 'exists' => array() );
 	$italic = array();
@@ -74,32 +54,21 @@ function getVariants( $var ) {
 			$name = 'Black 900';
 		}
 
-		if ( $v == "regular" ) {
-			$v = "400";
+		if ( $v === 'regular' ) {
+			$v = '400';
 		}
 
-		if ( strpos( $v, "italic" ) || $v == "italic" ) {
+		if ( strpos( $v, 'italic' ) || $v === 'italic' ) {
 			$name .= " Italic";
 			$name = trim( $name );
-			if ( $v == "italic" ) {
-				$v = "400italic";
+			if ( $v === 'italic' ) {
+				$v = '400italic';
 			}
-			/*$italic[] = array(
-				'id'   => $v,
-				'name' => $name,
-			);*/
-
 			$italic[ $v ] = $name;
 		} else {
-			/*$result[] = array(
-				'id'   => $v,
-				'name' => $name,
-			);*/
-
 			$result[ $v ] = $name;
 		}
 	}
-
 
 	foreach ( $italic as $key => $item ) {
 		if ( ! isset( $result[ $key ] ) ) {
@@ -116,24 +85,15 @@ date_default_timezone_set( 'UTC' );
 
 $output = shell_exec( 'git log -1' );
 echo shell_exec( 'git checkout -f master' );
-$gFile    = dirname( __FILE__ ) . '/fonts.json';
-$gFilePHP = dirname( __FILE__ ) . '/fonts.php';
-$gFileminPHP = dirname( __FILE__ ) . '/fonts-min.php';
-if ( file_exists( $gFile ) ) {
-	$weekback     = strtotime( date( 'jS F Y', time() + ( 60 * 60 * 24 * -7 ) ) );
-	$last_updated = filemtime( $gFile );
-	if ( $last_updated >= $weekback ) {
-		//echo 'Exit update.  A week has not yet passed.';
-		//return;
-	}
-}
-
+$gFile             = dirname( __FILE__ ) . '/fonts.json';
+$gFilePHP          = dirname( __FILE__ ) . '/fonts.php';
+$gFileminPHP       = dirname( __FILE__ ) . '/fonts-min.php';
 $fonts             = array();
 $php_fonts         = array();
 $arrContextOptions = array(
-	"ssl" => array(
-		"verify_peer"      => false,
-		"verify_peer_name" => false,
+	'ssl' => array(
+		'verify_peer'      => false,
+		'verify_peer_name' => false,
 	),
 );
 $key               = getenv( 'GOOGLEKEY' );
@@ -148,23 +108,9 @@ foreach ( $result->items as $font ) {
 	$php_fonts[ $font->family ] = getVariants( $font->variants );
 }
 $data = json_encode( $fonts );
-file_put_contents( $gFile, $data );
-file_put_contents( $gFilePHP, '<?php if ( ! defined( "ABSPATH") ) { die; } return '.var_export( $php_fonts, true ) .';');
-file_put_contents( $gFileminPHP, '<?php if ( ! defined("ABSPATH") ) { die; } return '.var_export_min( $php_fonts, true ).';' );
-
 echo "Saved new JSON\n\n";
-
-echo shell_exec( 'git config --global user.email "wponion@gmail.com"' );
-echo shell_exec( 'git config --global user.name "GFonts WPOnion"' );
-echo shell_exec( 'git add -A' );
-
-$build_number = getenv( 'TRAVIS_BUILD_NUMBER' );
-echo shell_exec( "git commit -m \"Travis build: $build_number [skip ci]\"" );
-$gh_token = getenv( 'GH_TOKEN' );
-echo shell_exec( "git remote set-url origin https://$gh_token@github.com/wponion/google-fonts.git > /dev/null 2>&1" );
-echo "\n\n";
-
-echo shell_exec( "git push origin master -f" );
-//} else {
-//  echo 'something went wrong';
-//}
+file_put_contents( $gFile, $data );
+echo "Saved new PHP1\n\n";
+file_put_contents( $gFilePHP, '<?php if ( ! defined( "ABSPATH") ) { die; } return ' . var_export( $php_fonts, true ) . ';' );
+echo "Saved new PHP2\n\n";
+file_put_contents( $gFileminPHP, '<?php if ( ! defined("ABSPATH") ) { die; } return ' . var_export_min( $php_fonts, true ) . ';' );
