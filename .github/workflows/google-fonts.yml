@@ -1,0 +1,20 @@
+on: 
+  schedule:
+  # * is a special character in YAML so you have to quote this string
+  - cron:  '*/60 * * * *'
+name: CI
+jobs:
+  composer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: pxgamer/composer-action@master
+      - run: php ./run.php ${{secrets.GOOGLE_TOKEN}}
+        env:
+          GOOGLE_TOKEN: ${{secrets.GOOGLE_TOKEN}}
+      - run: git config --global user.email "wponion@gmail.com" && git config --global user.name "Google WPOnion" && git add -A 
+      - run: git commit -m "Google Fonts Updated"
+      - run: git push "https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY" HEAD:master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
