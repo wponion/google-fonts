@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: pxgamer/composer-action@master
-      - run: php ./run.php ${{secrets.GOOGLE_TOKEN}}
+      - run: php ./run.php ${{ secrets.GOOGLE_TOKEN }}
         env:
           GOOGLE_TOKEN: ${{secrets.GOOGLE_TOKEN}}
       - run: git config --global user.email "wponion@gmail.com" && git config --global user.name "Google WPOnion" && git add -A 
