@@ -1,4 +1,5 @@
 <?php
+var_dump($argv);
 function var_export_min( $var, $return = false ) {
 	if ( is_array( $var ) ) {
 		$toImplode = array();
