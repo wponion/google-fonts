@@ -2,6 +2,8 @@ on:
   schedule:
   # * is a special character in YAML so you have to quote this string
   - cron:  '*/05 * * * *'
+  push:
+    - master
 name: CI
 jobs:
   composer:
