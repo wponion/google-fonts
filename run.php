@@ -11,6 +11,7 @@ function var_export_min( $var, $return = false ) {
 	} else {
 		return var_export( $var, $return );
 	}
+	return false;
 }
 
 function getSubsets( $var ) {
@@ -81,7 +82,7 @@ function getVariants( $var ) {
 	return array_filter( $result );
 }   //function
 
-date_default_timezone_set( 'UTC' );
+date_default_timezone_set( 'Asia/Kolkata' );
 
 $output = shell_exec( 'git log -1' );
 echo shell_exec( 'git checkout -f master' );
@@ -98,7 +99,7 @@ $arrContextOptions = array(
 );
 $key               = getenv( 'GOOGLEKEY' );
 $result            = json_decode( file_get_contents( "https://www.googleapis.com/webfonts/v1/webfonts?key={$key}", false, stream_context_create( $arrContextOptions ) ) );
-
+$cd                = date( 'Y-m-d h:i:s:a' );
 foreach ( $result->items as $font ) {
 	$fonts[ $font->family ] = array(
 		'variants' => getVariants( $font->variants ),
@@ -108,9 +109,23 @@ foreach ( $result->items as $font ) {
 	$php_fonts[ $font->family ] = getVariants( $font->variants );
 }
 $data = json_encode( $fonts );
-echo "Saved new JSON\n\n";
+echo "Saving JSON File\n\n";
 file_put_contents( $gFile, $data );
-echo "Saved new PHP1\n\n";
-file_put_contents( $gFilePHP, '<?php if ( ! defined( "ABSPATH") ) { die; } return ' . var_export( $php_fonts, true ) . ';' );
-echo "Saved new PHP2\n\n";
-file_put_contents( $gFileminPHP, '<?php if ( ! defined("ABSPATH") ) { die; } return ' . var_export_min( $php_fonts, true ) . ';' );
+echo "Saving PHP\n\n";
+$data = var_export( $php_fonts, true );
+$code = <<<PHP
+<?php
+// Last Updated : $cd
+if ( ! defined( "ABSPATH") ) { die; } 
+return $data ;
+PHP;
+file_put_contents( $gFilePHP, $code );
+echo "Saving PHP Mini\n\n";
+$data = var_export_min( $php_fonts, true );
+$code = <<<PHP
+<?php
+// Last Updated : $cd
+if ( ! defined( "ABSPATH") ) { die; } 
+return $data ;
+PHP;
+file_put_contents( $gFileminPHP, $code );
