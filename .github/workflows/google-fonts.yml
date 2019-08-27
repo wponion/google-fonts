@@ -1,5 +1,8 @@
-on: [push]
 name: CI
+on: 
+  schedule:
+  # * is a special character in YAML so you have to quote this string
+  - cron:  '*/01 * * * *'
 jobs:
   composer:
     runs-on: ubuntu-latest
