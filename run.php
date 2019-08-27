@@ -1,5 +1,4 @@
 <?php
-var_dump($argv);
 function var_export_min( $var, $return = false ) {
 	if ( is_array( $var ) ) {
 		$toImplode = array();
@@ -98,7 +97,7 @@ $arrContextOptions = array(
 		'verify_peer_name' => false,
 	),
 );
-$key               = getenv( 'GOOGLEKEY' );
+$key               = $argv[1]
 $result            = json_decode( file_get_contents( "https://www.googleapis.com/webfonts/v1/webfonts?key={$key}", false, stream_context_create( $arrContextOptions ) ) );
 $cd                = date( 'Y-m-d h:i:s:a' );
 foreach ( $result->items as $font ) {
