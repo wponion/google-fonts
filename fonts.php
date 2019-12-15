@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2019-12-08 05:37:47:am
+// Last Updated : 2019-12-15 05:38:10:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -1302,6 +1302,13 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Courier Prime' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
+  ),
   'Cousine' => 
   array (
     400 => 'Regular 400',
@@ -2079,6 +2086,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Girassol' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Give You Glory' => 
   array (
     400 => 'Regular 400',
@@ -2483,6 +2494,15 @@ return array (
     800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
+  'Inria Serif' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
+  ),
   'Irish Grover' => 
   array (
     400 => 'Regular 400',
@@ -2671,20 +2691,10 @@ return array (
   ),
   'Karla' => 
   array (
-    200 => 'Extra Light 200',
-    300 => 'Light 300',
     400 => 'Regular 400',
-    500 => 'Medium 500',
-    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
-    800 => 'Extra Bold 800',
-    '200italic' => 'Extra Light 200 Italic',
-    '300italic' => 'Light 300 Italic',
     '400italic' => 'Regular 400 Italic',
-    '500italic' => 'Medium 500 Italic',
-    '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
-    '800italic' => 'Extra Bold 800 Italic',
   ),
   'Karma' => 
   array (
