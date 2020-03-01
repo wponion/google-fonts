@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2020-02-23 05:36:59:am
+// Last Updated : 2020-03-01 05:35:26:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -947,6 +947,13 @@ return array (
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     900 => 'Black 900',
+  ),
+  'Caladea' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'Calistoga' => 
   array (
@@ -4079,6 +4086,16 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Oxanium' => 
+  array (
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+  ),
   'Oxygen' => 
   array (
     300 => 'Light 300',
@@ -4757,7 +4774,10 @@ return array (
   'Ruda' => 
   array (
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
   'Rufina' => 
@@ -5171,6 +5191,18 @@ return array (
     700 => 'Bold 700',
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
+  ),
+  'Spartan' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Special Elite' => 
   array (
