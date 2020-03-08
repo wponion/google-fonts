@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2020-03-01 05:35:26:am
+// Last Updated : 2020-03-08 05:35:35:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -550,9 +550,25 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Baloo 2' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+  ),
   'Baloo Bhai' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Baloo Bhai 2' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
   ),
   'Baloo Bhaijaan' => 
   array (
@@ -562,29 +578,85 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Baloo Bhaina 2' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+  ),
   'Baloo Chettan' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Baloo Chettan 2' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
   ),
   'Baloo Da' => 
   array (
     400 => 'Regular 400',
   ),
+  'Baloo Da 2' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+  ),
   'Baloo Paaji' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Baloo Paaji 2' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
   ),
   'Baloo Tamma' => 
   array (
     400 => 'Regular 400',
   ),
+  'Baloo Tamma 2' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+  ),
   'Baloo Tammudu' => 
   array (
     400 => 'Regular 400',
   ),
+  'Baloo Tammudu 2' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+  ),
   'Baloo Thambi' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Baloo Thambi 2' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
   ),
   'Balthazar' => 
   array (
@@ -719,6 +791,24 @@ return array (
   'Belleza' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Bellota' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
+  ),
+  'Bellota Text' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'BenchNine' => 
   array (
@@ -2139,6 +2229,10 @@ return array (
     800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
+  'Gotu' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Goudy Bookletter 1911' => 
   array (
     400 => 'Regular 400',
@@ -2501,6 +2595,15 @@ return array (
     800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
+  'Inria Sans' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
+  ),
   'Inria Serif' => 
   array (
     300 => 'Light 300',
@@ -2509,6 +2612,18 @@ return array (
     '300italic' => 'Light 300 Italic',
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
+  ),
+  'Inter' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Irish Grover' => 
   array (
@@ -2569,13 +2684,17 @@ return array (
   'Josefin Sans' => 
   array (
     100 => 'Thin 100',
+    200 => 'Extra Light 200',
     300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
     '300italic' => 'Light 300 Italic',
     '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
     '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
@@ -4987,6 +5106,12 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Sen' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+  ),
   'Sevillana' => 
   array (
     400 => 'Regular 400',
@@ -5651,6 +5776,10 @@ return array (
     500 => 'Medium 500',
     700 => 'Bold 700',
     900 => 'Black 900',
+  ),
+  'Viaoda Libre' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Vibes' => 
   array (
