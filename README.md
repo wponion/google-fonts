@@ -1,2 +1,2 @@
-# google-fonts
-Google fonts updated weekly via Travis CI.
+# Google Fonts
+> Updated Daily Via Github Actions.
