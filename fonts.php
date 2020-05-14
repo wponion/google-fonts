@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2020-05-13 05:42:10:am
+// Last Updated : 2020-05-14 05:41:05:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -2335,9 +2335,11 @@ return array (
   'Heebo' => 
   array (
     100 => 'Thin 100',
+    200 => 'Extra Light 200',
     300 => 'Light 300',
     400 => 'Regular 400',
     500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
     900 => 'Black 900',
@@ -5837,12 +5839,16 @@ return array (
   'Vollkorn' => 
   array (
     400 => 'Regular 400',
+    500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    800 => 'Extra Bold 800',
     900 => 'Black 900',
     '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
     '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
   ),
   'Vollkorn SC' => 
