@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2020-06-19 05:49:28:am
+// Last Updated : 2020-06-20 05:49:19:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -4836,14 +4836,18 @@ return array (
   'Roboto Mono' => 
   array (
     100 => 'Thin 100',
+    200 => 'Extra Light 200',
     300 => 'Light 300',
     400 => 'Regular 400',
     500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
     '300italic' => 'Light 300 Italic',
     '400italic' => 'Regular 400 Italic',
     '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
   'Roboto Slab' => 
