@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2020-07-15 06:02:15:am
+// Last Updated : 2020-07-16 05:55:25:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -2360,6 +2360,7 @@ return array (
   'Harmattan' => 
   array (
     400 => 'Regular 400',
+    700 => 'Bold 700',
   ),
   'Headland One' => 
   array (
@@ -3830,25 +3831,6 @@ return array (
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
   ),
-  'Muli' => 
-  array (
-    200 => 'Extra Light 200',
-    300 => 'Light 300',
-    400 => 'Regular 400',
-    500 => 'Medium 500',
-    600 => 'Semi-Bold 600',
-    700 => 'Bold 700',
-    800 => 'Extra Bold 800',
-    900 => 'Black 900',
-    '200italic' => 'Extra Light 200 Italic',
-    '300italic' => 'Light 300 Italic',
-    '400italic' => 'Regular 400 Italic',
-    '500italic' => 'Medium 500 Italic',
-    '600italic' => 'Semi-Bold 600 Italic',
-    '700italic' => 'Bold 700 Italic',
-    '800italic' => 'Extra Bold 800 Italic',
-    '900italic' => 'Black 900 Italic',
-  ),
   'Mulish' => 
   array (
     200 => 'Extra Light 200',
@@ -4825,6 +4807,12 @@ return array (
     '500italic' => 'Medium 500 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
+  'Red Rose' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+  ),
   'Redressed' => 
   array (
     400 => 'Regular 400',
@@ -5273,6 +5261,7 @@ return array (
   array (
     300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
   ),
