@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2020-07-23 05:56:42:am
+// Last Updated : 2020-07-24 05:56:58:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -4786,6 +4786,16 @@ return array (
   'Ravi Prakash' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Recursive' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Red Hat Display' => 
   array (
