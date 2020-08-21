@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2020-08-20 06:03:00:am
+// Last Updated : 2020-08-21 06:01:35:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -1233,7 +1233,10 @@ return array (
   'Cinzel' => 
   array (
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
   'Cinzel Decorative' => 
@@ -3604,10 +3607,14 @@ return array (
   array (
     300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
     '300italic' => 'Light 300 Italic',
     '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
     '800italic' => 'Extra Bold 800 Italic',
   ),
@@ -5010,12 +5017,16 @@ return array (
     300 => 'Light 300',
     400 => 'Regular 400',
     500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    800 => 'Extra Bold 800',
     900 => 'Black 900',
     '300italic' => 'Light 300 Italic',
     '400italic' => 'Regular 400 Italic',
     '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
   ),
   'Rubik Mono One' => 
