@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2020-10-22 06:16:49:am
+// Last Updated : 2020-10-23 06:17:05:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -419,6 +419,7 @@ return array (
     200 => 'Extra Light 200',
     300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
@@ -5766,6 +5767,14 @@ return array (
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
   ),
+  'Syne Mono' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Syne Tactile' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Tajawal' => 
   array (
     200 => 'Extra Light 200',
@@ -5933,6 +5942,17 @@ return array (
     '700italic' => 'Bold 700 Italic',
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
+  ),
+  'Trispace' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
   ),
   'Trocchi' => 
   array (
