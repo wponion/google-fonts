@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2020-11-03 06:00:07:am
+// Last Updated : 2020-11-04 06:00:34:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -3254,6 +3254,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Libre Barcode EAN13 Text' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Libre Baskerville' => 
   array (
     400 => 'Regular 400',
@@ -5575,6 +5579,14 @@ return array (
     '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
     '900italic' => 'Black 900 Italic',
+  ),
+  'Space Grotesk' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'Space Mono' => 
   array (
