@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2020-11-20 06:01:39:am
+// Last Updated : 2020-11-21 06:02:54:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -349,8 +349,12 @@ return array (
   'Arimo' => 
   array (
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
   'Arizonia' => 
@@ -1135,6 +1139,11 @@ return array (
   'Carter One' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Castoro' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
   ),
   'Catamaran' => 
   array (
@@ -2839,13 +2848,17 @@ return array (
   'Josefin Slab' => 
   array (
     100 => 'Thin 100',
+    200 => 'Extra Light 200',
     300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
     '300italic' => 'Light 300 Italic',
     '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
     '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
@@ -2976,10 +2989,20 @@ return array (
   ),
   'Karla' => 
   array (
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
     '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
   ),
   'Karma' => 
   array (
@@ -4040,6 +4063,10 @@ return array (
     800 => 'Extra Bold 800',
   ),
   'Nanum Pen Script' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Nerko One' => 
   array (
     400 => 'Regular 400',
   ),
@@ -5907,6 +5934,27 @@ return array (
   'Text Me One' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Texturina' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
   ),
   'Thasadith' => 
   array (
