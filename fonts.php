@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2020-12-08 06:08:10:am
+// Last Updated : 2020-12-09 06:08:57:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -255,6 +255,13 @@ return array (
   'Andika' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Andika New Basic' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'Angkor' => 
   array (
@@ -3247,6 +3254,10 @@ return array (
     400 => 'Regular 400',
   ),
   'Lancelot' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Langar' => 
   array (
     400 => 'Regular 400',
   ),
