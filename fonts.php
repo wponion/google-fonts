@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-01-08 06:29:05:am
+// Last Updated : 2021-01-09 06:29:24:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -962,6 +962,21 @@ return array (
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
     900 => 'Black 900',
+  ),
+  'Bodoni Moda' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
   ),
   'Bokor' => 
   array (
@@ -2159,6 +2174,27 @@ return array (
     700 => 'Bold 700',
     900 => 'Black 900',
   ),
+  'Fraunces' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
+  ),
   'Freckle Face' => 
   array (
     400 => 'Regular 400',
@@ -2449,6 +2485,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Hachi Maru Pop' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Halant' => 
   array (
     300 => 'Light 300',
@@ -2710,6 +2750,18 @@ return array (
   'Iceland' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Imbue' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Imprima' => 
   array (
@@ -4789,6 +4841,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Potta One' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Pragati Narrow' => 
   array (
     400 => 'Regular 400',
@@ -5305,6 +5361,15 @@ return array (
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
     900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
   ),
   'Saira Condensed' => 
   array (
@@ -6377,6 +6442,10 @@ return array (
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+  ),
+  'Yusei Magic' => 
+  array (
+    400 => 'Regular 400',
   ),
   'ZCOOL KuaiLe' => 
   array (
