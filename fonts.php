@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-02-18 06:07:54:am
+// Last Updated : 2021-02-19 06:08:16:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -50,6 +50,14 @@ return array (
     700 => 'Bold 700',
   ),
   'Aguafina Script' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Akaya Kanadaka' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Akaya Telivigala' => 
   array (
     400 => 'Regular 400',
   ),
@@ -1743,6 +1751,10 @@ return array (
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
+  ),
+  'DotGothic16' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Dr Sugiyama' => 
   array (
@@ -4449,6 +4461,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Oi' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Old Standard TT' => 
   array (
     400 => 'Regular 400',
@@ -5259,6 +5275,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'RocknRoll One' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Rokkitt' => 
   array (
     100 => 'Thin 100',
@@ -5609,6 +5629,22 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Shippori Mincho' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+  ),
+  'Shippori Mincho B1' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+  ),
   'Shojumaru' => 
   array (
     400 => 'Regular 400',
@@ -5903,6 +5939,10 @@ return array (
   array (
     400 => 'Regular 400',
     700 => 'Bold 700',
+  ),
+  'Stick' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Stint Ultra Condensed' => 
   array (
