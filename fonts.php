@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-04-12 05:47:51:am
+// Last Updated : 2021-04-13 05:48:06:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -303,6 +303,16 @@ return array (
   'Anton' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Antonio' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'Arapey' => 
   array (
@@ -3112,6 +3122,12 @@ return array (
     400 => 'Regular 400',
     700 => 'Bold 700',
   ),
+  'Karantina' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+  ),
   'Karla' => 
   array (
     200 => 'Extra Light 200',
@@ -4559,6 +4575,10 @@ return array (
   array (
     400 => 'Regular 400',
     '400italic' => 'Regular 400 Italic',
+  ),
+  'Orelega One' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Orienta' => 
   array (
@@ -6588,6 +6608,10 @@ return array (
     400 => 'Regular 400',
   ),
   'ZCOOL XiaoWei' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Zen Dots' => 
   array (
     400 => 'Regular 400',
   ),
