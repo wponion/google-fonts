@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-07-01 06:21:58:am
+// Last Updated : 2021-07-02 06:17:41:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -1020,6 +1020,12 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Bona Nova' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+  ),
   'Bonbon' => 
   array (
     400 => 'Regular 400',
@@ -1901,6 +1907,18 @@ return array (
     800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
+  'Encode Sans SC' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
   'Encode Sans Semi Condensed' => 
   array (
     100 => 'Thin 100',
@@ -2108,6 +2126,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Festive' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Finger Paint' => 
   array (
     400 => 'Regular 400',
@@ -2281,6 +2303,10 @@ return array (
     400 => 'Regular 400',
   ),
   'Fugaz One' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Fuggles' => 
   array (
     400 => 'Regular 400',
   ),
@@ -4597,6 +4623,10 @@ return array (
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
   ),
+  'Otomanopee One' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Over the Rainbow' => 
   array (
     400 => 'Regular 400',
@@ -5057,6 +5087,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Qahiri' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Quando' => 
   array (
     400 => 'Regular 400',
@@ -5239,6 +5273,9 @@ return array (
   'Reem Kufi' => 
   array (
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'Reenie Beanie' => 
   array (
@@ -5450,6 +5487,10 @@ return array (
     400 => 'Regular 400',
   ),
   'Rye' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'STIX Two Math' => 
   array (
     400 => 'Regular 400',
   ),
@@ -6262,6 +6303,27 @@ return array (
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
   ),
+  'Tourney' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
+  ),
   'Trade Winds' => 
   array (
     400 => 'Regular 400',
@@ -6362,6 +6424,10 @@ return array (
     700 => 'Bold 700',
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
+  ),
+  'Uchen' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Ultra' => 
   array (
@@ -6587,6 +6653,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Yomogi' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Yrsa' => 
   array (
     300 => 'Light 300',
@@ -6612,6 +6682,15 @@ return array (
     400 => 'Regular 400',
   ),
   'Zen Dots' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Zen Loop' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
+  ),
+  'Zen Tokyo Zoo' => 
   array (
     400 => 'Regular 400',
   ),
