@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-07-26 06:19:22:am
+// Last Updated : 2021-07-27 06:21:25:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -262,6 +262,19 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Andada Pro' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+  ),
   'Andika' => 
   array (
     400 => 'Regular 400',
@@ -483,6 +496,13 @@ return array (
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+  ),
+  'Atkinson Hyperlegible' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'Atma' => 
   array (
@@ -2387,6 +2407,27 @@ return array (
     400 => 'Regular 400',
     '400italic' => 'Regular 400 Italic',
   ),
+  'Georama' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
+  ),
   'Geostar' => 
   array (
     400 => 'Regular 400',
@@ -2463,6 +2504,15 @@ return array (
     400 => 'Regular 400',
   ),
   'Goudy Bookletter 1911' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Gowun Batang' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+  ),
+  'Gowun Dodum' => 
   array (
     400 => 'Regular 400',
   ),
@@ -2571,6 +2621,18 @@ return array (
   'Hachi Maru Pop' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Hahmlet' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Halant' => 
   array (
@@ -4061,6 +4123,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'MonteCarlo' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Montez' => 
   array (
     400 => 'Regular 400',
@@ -4753,6 +4819,10 @@ return array (
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
   ),
+  'Palette Mosaic' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Pangolin' => 
   array (
     400 => 'Regular 400',
@@ -5219,6 +5289,11 @@ return array (
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'Rationale' => 
   array (
@@ -5493,6 +5568,17 @@ return array (
   'STIX Two Math' => 
   array (
     400 => 'Regular 400',
+  ),
+  'STIX Two Text' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'Sacramento' => 
   array (
@@ -6060,6 +6146,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Style Script' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Stylish' => 
   array (
     400 => 'Regular 400',
@@ -6585,6 +6675,11 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'WindSong' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+  ),
   'Wire One' => 
   array (
     400 => 'Regular 400',
@@ -6664,6 +6759,11 @@ return array (
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'Yusei Magic' => 
   array (
