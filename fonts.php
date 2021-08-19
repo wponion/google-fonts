@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-08-18 06:20:08:am
+// Last Updated : 2021-08-19 06:13:03:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -190,6 +190,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Allison' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Allura' => 
   array (
     400 => 'Regular 400',
@@ -215,6 +219,27 @@ return array (
   'Almendra SC' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Alumni Sans' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
   ),
   'Amarante' => 
   array (
@@ -567,6 +592,27 @@ return array (
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
+  'Azeret Mono' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
+  ),
   'B612' => 
   array (
     400 => 'Regular 400',
@@ -860,6 +906,21 @@ return array (
   'Berkshire Swash' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Besley' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
   ),
   'Beth Ellen' => 
   array (
@@ -2469,6 +2530,25 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Glory' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+  ),
   'Goblin One' => 
   array (
     400 => 'Regular 400',
@@ -2712,6 +2792,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Hina Mincho' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Hind' => 
   array (
     300 => 'Light 300',
@@ -2798,6 +2882,16 @@ return array (
     '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
+  'IBM Plex Sans Arabic' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
   'IBM Plex Sans Condensed' => 
   array (
     100 => 'Thin 100',
@@ -2814,6 +2908,56 @@ return array (
     '500italic' => 'Medium 500 Italic',
     '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
+  ),
+  'IBM Plex Sans Devanagari' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'IBM Plex Sans Hebrew' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'IBM Plex Sans KR' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'IBM Plex Sans Thai' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'IBM Plex Sans Thai Looped' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'IBM Plex Serif' => 
   array (
@@ -3172,6 +3316,31 @@ return array (
     400 => 'Regular 400',
     700 => 'Bold 700',
   ),
+  'Kaisei Decol' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    700 => 'Bold 700',
+  ),
+  'Kaisei HarunoUmi' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    700 => 'Bold 700',
+  ),
+  'Kaisei Opti' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    700 => 'Bold 700',
+  ),
+  'Kaisei Tokumin' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+  ),
   'Kalam' => 
   array (
     300 => 'Light 300',
@@ -3307,6 +3476,11 @@ return array (
     400 => 'Regular 400',
     500 => 'Medium 500',
   ),
+  'Klee One' => 
+  array (
+    400 => 'Regular 400',
+    600 => 'Semi-Bold 600',
+  ),
   'Knewave' => 
   array (
     400 => 'Regular 400',
@@ -3430,9 +3604,15 @@ return array (
   ),
   'Kumbh Sans' => 
   array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
     300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Kurale' => 
   array (
@@ -3520,40 +3700,98 @@ return array (
   'Lexend' => 
   array (
     100 => 'Thin 100',
+    200 => 'Extra Light 200',
     300 => 'Light 300',
     400 => 'Regular 400',
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Lexend Deca' => 
   array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Lexend Exa' => 
   array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Lexend Giga' => 
   array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Lexend Mega' => 
   array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Lexend Peta' => 
   array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Lexend Tera' => 
   array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Lexend Zetta' => 
   array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Libre Barcode 128' => 
   array (
@@ -5269,6 +5507,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Rampart One' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Ranchers' => 
   array (
     400 => 'Regular 400',
@@ -6558,6 +6800,27 @@ return array (
     700 => 'Bold 700',
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
+  ),
+  'Urbanist' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
   ),
   'VT323' => 
   array (
