@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-09-01 06:25:17:am
+// Last Updated : 2021-09-02 06:19:43:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -5804,10 +5804,6 @@ return array (
     400 => 'Regular 400',
   ),
   'Rye' => 
-  array (
-    400 => 'Regular 400',
-  ),
-  'STIX Two Math' => 
   array (
     400 => 'Regular 400',
   ),
