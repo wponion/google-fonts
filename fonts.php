@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-09-07 06:18:09:am
+// Last Updated : 2021-09-08 06:19:10:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -280,10 +280,6 @@ return array (
     700 => 'Bold 700',
   ),
   'Anaheim' => 
-  array (
-    400 => 'Regular 400',
-  ),
-  'Andada' => 
   array (
     400 => 'Regular 400',
   ),
