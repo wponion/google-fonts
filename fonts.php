@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-09-14 06:25:20:am
+// Last Updated : 2021-09-15 06:20:58:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -4660,12 +4660,313 @@ return array (
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
+  'Noto Kufi Arabic' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Music' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Naskh Arabic' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Nastaliq Urdu' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+  ),
+  'Noto Rashi Hebrew' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
   'Noto Sans' => 
   array (
     400 => 'Regular 400',
     700 => 'Bold 700',
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
+  ),
+  'Noto Sans Adlam' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Sans Adlam Unjoined' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Sans Anatolian Hieroglyphs' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Arabic' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Armenian' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Avestan' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Balinese' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Sans Bamum' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Sans Bassa Vah' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Batak' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Bengali' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Bhaiksuki' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Brahmi' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Buginese' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Buhid' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Canadian Aboriginal' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Carian' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Caucasian Albanian' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Chakma' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Cham' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Cherokee' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Coptic' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Cuneiform' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Cypriot' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Deseret' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Devanagari' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Display' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
+  ),
+  'Noto Sans Duployan' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Egyptian Hieroglyphs' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Elbasan' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Elymaic' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Georgian' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Glagolitic' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Gothic' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Grantha' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Gujarati' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Gunjala Gondi' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Gurmukhi' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Noto Sans HK' => 
   array (
@@ -4676,6 +4977,49 @@ return array (
     700 => 'Bold 700',
     900 => 'Black 900',
   ),
+  'Noto Sans Hanifi Rohingya' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Sans Hanunoo' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Hatran' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Hebrew' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Imperial Aramaic' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Indic Siyaq Numbers' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Inscriptional Pahlavi' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Inscriptional Parthian' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Noto Sans JP' => 
   array (
     100 => 'Thin 100',
@@ -4684,6 +5028,11 @@ return array (
     500 => 'Medium 500',
     700 => 'Bold 700',
     900 => 'Black 900',
+  ),
+  'Noto Sans Javanese' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
   ),
   'Noto Sans KR' => 
   array (
@@ -4694,6 +5043,313 @@ return array (
     700 => 'Bold 700',
     900 => 'Black 900',
   ),
+  'Noto Sans Kaithi' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Kannada' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Kayah Li' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Sans Kharoshthi' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Khmer' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Khojki' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Khudawadi' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Lao' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Lepcha' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Limbu' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Linear A' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Linear B' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Lisu' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Sans Lycian' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Lydian' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Mahajani' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Malayalam' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Mandaic' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Manichaean' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Marchen' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Masaram Gondi' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Math' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Mayan Numerals' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Medefaidrin' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Sans MeeteiMayek' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Meroitic' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Miao' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Modi' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Mongolian' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Mono' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Mro' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Multani' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Myanmar' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans N Ko' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Nabataean' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans New Tai Lue' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Newa' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Nushu' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Ogham' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Ol Chiki' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Sans Old Hungarian' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Old Italic' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Old North Arabian' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Old Permic' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Old Persian' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Old Sogdian' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Old South Arabian' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Old Turkic' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Oriya' => 
+  array (
+    100 => 'Thin 100',
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Osage' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Osmanya' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Pahawh Hmong' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Palmyrene' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Pau Cin Hau' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Phags Pa' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Phoenician' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Psalter Pahlavi' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Rejang' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Runic' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Noto Sans SC' => 
   array (
     100 => 'Thin 100',
@@ -4701,6 +5357,86 @@ return array (
     400 => 'Regular 400',
     500 => 'Medium 500',
     700 => 'Bold 700',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Samaritan' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Saurashtra' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Sharada' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Shavian' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Siddham' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Sinhala' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Sogdian' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Sora Sompeng' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Sans Soyombo' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Sundanese' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Sans Syloti Nagri' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Symbols' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Symbols 2' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Syriac' => 
+  array (
+    100 => 'Thin 100',
+    400 => 'Regular 400',
     900 => 'Black 900',
   ),
   'Noto Sans TC' => 
@@ -4712,12 +5448,268 @@ return array (
     700 => 'Bold 700',
     900 => 'Black 900',
   ),
+  'Noto Sans Tagalog' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Tagbanwa' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Tai Le' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Tai Tham' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Sans Tai Viet' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Takri' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Tamil' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Tamil Supplement' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Telugu' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Thaana' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Thai' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Thai Looped' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Sans Tifinagh' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Tirhuta' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Ugaritic' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Vai' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Wancho' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Warang Citi' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Yi' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Sans Zanabazar Square' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Noto Serif' => 
   array (
     400 => 'Regular 400',
     700 => 'Bold 700',
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
+  ),
+  'Noto Serif Ahom' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Serif Armenian' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Balinese' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Serif Bengali' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Devanagari' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Display' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
+  ),
+  'Noto Serif Dogra' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Serif Ethiopic' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Georgian' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Grantha' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Serif Gujarati' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Gurmukhi' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Hebrew' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Noto Serif JP' => 
   array (
@@ -4739,6 +5731,73 @@ return array (
     700 => 'Bold 700',
     900 => 'Black 900',
   ),
+  'Noto Serif Kannada' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Khmer' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Lao' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Malayalam' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Myanmar' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Nyiakeng Puachue Hmong' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
   'Noto Serif SC' => 
   array (
     200 => 'Extra Light 200',
@@ -4747,6 +5806,18 @@ return array (
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Sinhala' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
   'Noto Serif TC' => 
@@ -4758,6 +5829,78 @@ return array (
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     900 => 'Black 900',
+  ),
+  'Noto Serif Tamil' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
+  ),
+  'Noto Serif Tangut' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Noto Serif Telugu' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Thai' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Tibetan' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif Yezidi' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Traditional Nushu' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Nova Cut' => 
   array (
