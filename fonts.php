@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-10-21 06:28:33:am
+// Last Updated : 2021-10-22 06:29:21:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -8331,7 +8331,35 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Zen Antique' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Zen Antique Soft' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Zen Dots' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Zen Kaku Gothic Antique' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    700 => 'Bold 700',
+    900 => 'Black 900',
+  ),
+  'Zen Kaku Gothic New' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    700 => 'Bold 700',
+    900 => 'Black 900',
+  ),
+  'Zen Kurenaido' => 
   array (
     400 => 'Regular 400',
   ),
@@ -8339,6 +8367,20 @@ return array (
   array (
     400 => 'Regular 400',
     '400italic' => 'Regular 400 Italic',
+  ),
+  'Zen Maru Gothic' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    700 => 'Bold 700',
+    900 => 'Black 900',
+  ),
+  'Zen Old Mincho' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    900 => 'Black 900',
   ),
   'Zen Tokyo Zoo' => 
   array (
