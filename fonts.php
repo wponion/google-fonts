@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-11-03 06:21:51:am
+// Last Updated : 2021-11-04 06:22:44:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -1904,6 +1904,12 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Dongle' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+  ),
   'Doppio One' => 
   array (
     400 => 'Regular 400',
@@ -2245,14 +2251,18 @@ return array (
   ),
   'Faustina' => 
   array (
+    300 => 'Light 300',
     400 => 'Regular 400',
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    '300italic' => 'Light 300 Italic',
     '400italic' => 'Regular 400 Italic',
     '500italic' => 'Medium 500 Italic',
     '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
   ),
   'Federant' => 
   array (
@@ -4436,6 +4446,14 @@ return array (
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
   ),
+  'Mochiy Pop One' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Mochiy Pop P One' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Modak' => 
   array (
     400 => 'Regular 400',
@@ -4447,6 +4465,19 @@ return array (
   'Mogra' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Mohave' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'Molengo' => 
   array (
@@ -5299,6 +5330,18 @@ return array (
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+  ),
+  'Noto Sans Meetei Mayek' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Noto Sans Meroitic' => 
   array (
@@ -6820,6 +6863,19 @@ return array (
     '700italic' => 'Bold 700 Italic',
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
+  ),
+  'Red Hat Mono' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'Red Hat Text' => 
   array (
