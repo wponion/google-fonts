@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-11-10 06:22:44:am
+// Last Updated : 2021-11-11 06:23:27:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -1266,8 +1266,10 @@ return array (
     200 => 'Extra Light 200',
     300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
   'Caladea' => 
@@ -1547,6 +1549,14 @@ return array (
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+  ),
+  'Comforter' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Comforter Brush' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Comic Neue' => 
   array (
@@ -2133,6 +2143,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Estonia' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Euphoria Script' => 
   array (
     400 => 'Regular 400',
@@ -2386,6 +2400,18 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Flow Block' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Flow Circular' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Flow Rounded' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Fondamento' => 
   array (
     400 => 'Regular 400',
@@ -2535,6 +2561,27 @@ return array (
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
+  ),
+  'Genos' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
   ),
   'Gentium Basic' => 
   array (
@@ -2959,6 +3006,10 @@ return array (
     400 => 'Regular 400',
   ),
   'Homenaje' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Hurricane' => 
   array (
     400 => 'Regular 400',
   ),
@@ -3576,6 +3627,10 @@ return array (
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
   ),
+  'Kings' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Kirang Haerang' => 
   array (
     400 => 'Regular 400',
@@ -4115,6 +4170,28 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'M PLUS 1' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'M PLUS 1 Code' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
   'M PLUS 1p' => 
   array (
     100 => 'Thin 100',
@@ -4124,6 +4201,28 @@ return array (
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
     900 => 'Black 900',
+  ),
+  'M PLUS 2' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'M PLUS Code Latin' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'M PLUS Rounded 1c' => 
   array (
@@ -4507,6 +4606,16 @@ return array (
   'Montaga' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Montagu Slab' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'MonteCarlo' => 
   array (
@@ -6223,6 +6332,18 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Outfit' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
   'Over the Rainbow' => 
   array (
     400 => 'Regular 400',
@@ -6246,6 +6367,7 @@ return array (
     200 => 'Extra Light 200',
     300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
@@ -6254,6 +6376,7 @@ return array (
     '200italic' => 'Extra Light 200 Italic',
     '300italic' => 'Light 300 Italic',
     '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
     '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
     '800italic' => 'Extra Bold 800 Italic',
@@ -6263,6 +6386,7 @@ return array (
   array (
     300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
   ),
@@ -6375,6 +6499,10 @@ return array (
     700 => 'Bold 700',
     900 => 'Black 900',
   ),
+  'Passions Conflict' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Pathway Gothic One' => 
   array (
     400 => 'Regular 400',
@@ -6412,6 +6540,10 @@ return array (
     400 => 'Regular 400',
   ),
   'Permanent Marker' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Petemoss' => 
   array (
     400 => 'Regular 400',
   ),
@@ -6588,6 +6720,10 @@ return array (
     400 => 'Regular 400',
     700 => 'Bold 700',
   ),
+  'Praise' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Prata' => 
   array (
     400 => 'Regular 400',
@@ -6675,6 +6811,10 @@ return array (
     '700italic' => 'Bold 700 Italic',
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
+  ),
+  'Puppies Play' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Puritan' => 
   array (
@@ -6938,6 +7078,10 @@ return array (
     400 => 'Regular 400',
   ),
   'Risque' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Road Rage' => 
   array (
     400 => 'Regular 400',
   ),
@@ -7282,6 +7426,10 @@ return array (
     800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
+  'Sassy Frass' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Satisfy' => 
   array (
     400 => 'Regular 400',
@@ -7357,6 +7505,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Shalimar' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Shanti' => 
   array (
     400 => 'Regular 400',
@@ -7373,6 +7525,14 @@ return array (
     400 => 'Regular 400',
   ),
   'Share Tech Mono' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Shippori Antique' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Shippori Antique B1' => 
   array (
     400 => 'Regular 400',
   ),
@@ -7424,6 +7584,7 @@ return array (
   array (
     300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
   ),
@@ -8370,6 +8531,18 @@ return array (
     '500italic' => 'Medium 500 Italic',
     '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
+  ),
+  'Yuji Boku' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Yuji Mai' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Yuji Syuku' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Yusei Magic' => 
   array (
