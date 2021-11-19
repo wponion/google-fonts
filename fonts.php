@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-11-18 06:23:40:am
+// Last Updated : 2021-11-19 06:22:39:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -840,23 +840,6 @@ return array (
   'Bayon' => 
   array (
     400 => 'Regular 400',
-  ),
-  'Be Vietnam' => 
-  array (
-    100 => 'Thin 100',
-    300 => 'Light 300',
-    400 => 'Regular 400',
-    500 => 'Medium 500',
-    600 => 'Semi-Bold 600',
-    700 => 'Bold 700',
-    800 => 'Extra Bold 800',
-    '100italic' => 'Thin 100 Italic',
-    '300italic' => 'Light 300 Italic',
-    '400italic' => 'Regular 400 Italic',
-    '500italic' => 'Medium 500 Italic',
-    '600italic' => 'Semi-Bold 600 Italic',
-    '700italic' => 'Bold 700 Italic',
-    '800italic' => 'Extra Bold 800 Italic',
   ),
   'Be Vietnam Pro' => 
   array (
@@ -1738,15 +1721,6 @@ return array (
     '700italic' => 'Bold 700 Italic',
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
-  ),
-  'Crimson Text' => 
-  array (
-    400 => 'Regular 400',
-    600 => 'Semi-Bold 600',
-    700 => 'Bold 700',
-    '400italic' => 'Regular 400 Italic',
-    '600italic' => 'Semi-Bold 600 Italic',
-    '700italic' => 'Bold 700 Italic',
   ),
   'Croissant One' => 
   array (
@@ -4894,8 +4868,11 @@ return array (
   ),
   'Nokora' => 
   array (
+    100 => 'Thin 100',
+    300 => 'Light 300',
     400 => 'Regular 400',
     700 => 'Bold 700',
+    900 => 'Black 900',
   ),
   'Norican' => 
   array (
@@ -7448,11 +7425,6 @@ return array (
     700 => 'Bold 700',
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
-  ),
-  'Scheherazade' => 
-  array (
-    400 => 'Regular 400',
-    700 => 'Bold 700',
   ),
   'Scheherazade New' => 
   array (
