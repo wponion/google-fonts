@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-12-01 06:26:37:am
+// Last Updated : 2021-12-02 06:23:59:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -667,6 +667,14 @@ return array (
     800 => 'Extra Bold 800',
   ),
   'Baloo Bhai 2' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+  ),
+  'Baloo Bhaijaan 2' => 
   array (
     400 => 'Regular 400',
     500 => 'Medium 500',
@@ -1600,6 +1608,11 @@ return array (
     400 => 'Regular 400',
     700 => 'Bold 700',
   ),
+  'Corinthia' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+  ),
   'Cormorant' => 
   array (
     300 => 'Light 300',
@@ -2468,6 +2481,11 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Fuzzy Bubbles' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+  ),
   'GFS Didot' => 
   array (
     400 => 'Regular 400',
@@ -2825,6 +2843,11 @@ return array (
   'Gurajada' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Gwendolyn' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
   ),
   'Habibi' => 
   array (
@@ -4144,6 +4167,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Luxurious Script' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'M PLUS 1' => 
   array (
     100 => 'Thin 100',
@@ -4415,6 +4442,10 @@ return array (
     400 => 'Regular 400',
   ),
   'Meie Script' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Meow Script' => 
   array (
     400 => 'Regular 400',
   ),
@@ -4741,6 +4772,18 @@ return array (
     '700italic' => 'Bold 700 Italic',
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
+  ),
+  'Murecho' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'MuseoModerno' => 
   array (
@@ -6180,6 +6223,7 @@ return array (
     200 => 'Extra Light 200',
     300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
@@ -6187,6 +6231,7 @@ return array (
     '200italic' => 'Extra Light 200 Italic',
     '300italic' => 'Light 300 Italic',
     '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
     '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
     '800italic' => 'Extra Bold 800 Italic',
@@ -6954,6 +6999,15 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Readex Pro' => 
+  array (
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
   'Recursive' => 
   array (
     300 => 'Light 300',
@@ -7013,6 +7067,16 @@ return array (
     400 => 'Regular 400',
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Redacted' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Redacted Script' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
     700 => 'Bold 700',
   ),
   'Redressed' => 
@@ -7605,6 +7669,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Smooch' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Smythe' => 
   array (
     400 => 'Regular 400',
@@ -7670,6 +7738,7 @@ return array (
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    800 => 'Extra Bold 800',
     900 => 'Black 900',
     '200italic' => 'Extra Light 200 Italic',
     '300italic' => 'Light 300 Italic',
@@ -7677,6 +7746,26 @@ return array (
     '500italic' => 'Medium 500 Italic',
     '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
+  ),
+  'Source Sans 3' => 
+  array (
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
   ),
   'Source Sans Pro' => 
