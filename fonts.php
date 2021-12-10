@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2021-12-09 06:24:20:am
+// Last Updated : 2021-12-10 06:25:11:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -653,6 +653,10 @@ return array (
     '500italic' => 'Medium 500 Italic',
     '600italic' => 'Semi-Bold 600 Italic',
     '700italic' => 'Bold 700 Italic',
+  ),
+  'Bakbak One' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Ballet' => 
   array (
