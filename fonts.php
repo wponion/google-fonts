@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-01-12 06:28:24:am
+// Last Updated : 2022-01-13 06:31:00:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -4872,6 +4872,10 @@ return array (
     800 => 'Extra Bold 800',
   ),
   'Nanum Pen Script' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Neonderthaw' => 
   array (
     400 => 'Regular 400',
   ),
