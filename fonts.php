@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-02-25 06:33:53:am
+// Last Updated : 2022-02-26 06:27:48:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -950,6 +950,10 @@ return array (
     400 => 'Regular 400',
     '400italic' => 'Regular 400 Italic',
   ),
+  'BhuTuka Expanded One' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Big Shoulders Display' => 
   array (
     100 => 'Thin 100',
@@ -1165,6 +1169,7 @@ return array (
   'Brawler' => 
   array (
     400 => 'Regular 400',
+    700 => 'Bold 700',
   ),
   'Bree Serif' => 
   array (
@@ -2458,6 +2463,14 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Fredoka' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
   'Fredoka One' => 
   array (
     400 => 'Regular 400',
@@ -3008,6 +3021,10 @@ return array (
     400 => 'Regular 400',
   ),
   'Homenaje' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Hubballi' => 
   array (
     400 => 'Regular 400',
   ),
@@ -3862,9 +3879,25 @@ return array (
     '700italic' => 'Bold 700 Italic',
     '900italic' => 'Black 900 Italic',
   ),
+  'League Gothic' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'League Script' => 
   array (
     400 => 'Regular 400',
+  ),
+  'League Spartan' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Leckerli One' => 
   array (
@@ -7763,6 +7796,18 @@ return array (
   'Smooch' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Smooch Sans' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Smythe' => 
   array (
