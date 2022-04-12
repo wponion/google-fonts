@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-04-11 06:47:44:am
+// Last Updated : 2022-04-12 06:47:01:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -64,6 +64,14 @@ return array (
   'Akronim' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Akshar' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'Aladin' => 
   array (
@@ -4977,6 +4985,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Ms Madi' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Mukta' => 
   array (
     200 => 'Extra Light 200',
@@ -5059,6 +5071,10 @@ return array (
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
     900 => 'Black 900',
+  ),
+  'My Soul' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Mystery Quest' => 
   array (
@@ -6954,6 +6970,23 @@ return array (
     '700italic' => 'Bold 700 Italic',
     '900italic' => 'Black 900 Italic',
   ),
+  'Plus Jakarta Sans' => 
+  array (
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+  ),
   'Podkova' => 
   array (
     400 => 'Regular 400',
@@ -8189,18 +8222,6 @@ return array (
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
-  'Spartan' => 
-  array (
-    100 => 'Thin 100',
-    200 => 'Extra Light 200',
-    300 => 'Light 300',
-    400 => 'Regular 400',
-    500 => 'Medium 500',
-    600 => 'Semi-Bold 600',
-    700 => 'Bold 700',
-    800 => 'Extra Bold 800',
-    900 => 'Black 900',
-  ),
   'Special Elite' => 
   array (
     400 => 'Regular 400',
@@ -8260,6 +8281,10 @@ return array (
     700 => 'Bold 700',
   ),
   'Squada One' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Square Peg' => 
   array (
     400 => 'Regular 400',
   ),
@@ -8750,6 +8775,10 @@ return array (
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
+  'Updock' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Urbanist' => 
   array (
     100 => 'Thin 100',
@@ -8904,6 +8933,10 @@ return array (
     400 => 'Regular 400',
   ),
   'Wendy One' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Whisper' => 
   array (
     400 => 'Regular 400',
   ),
