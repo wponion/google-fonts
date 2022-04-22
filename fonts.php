@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-04-21 06:57:37:am
+// Last Updated : 2022-04-22 07:12:22:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -4248,6 +4248,17 @@ return array (
     700 => 'Bold 700',
     '400italic' => 'Regular 400 Italic',
   ),
+  'Libre Bodoni' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+  ),
   'Libre Caslon Display' => 
   array (
     400 => 'Regular 400',
@@ -8451,6 +8462,10 @@ return array (
     400 => 'Regular 400',
     700 => 'Bold 700',
   ),
+  'Tapestry' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Taprom' => 
   array (
     400 => 'Regular 400',
@@ -8921,6 +8936,10 @@ return array (
     400 => 'Regular 400',
   ),
   'Warnes' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Water Brush' => 
   array (
     400 => 'Regular 400',
   ),
