@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-04-25 06:52:09:am
+// Last Updated : 2022-04-26 06:58:57:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -7231,6 +7231,14 @@ return array (
   'Racing Sans One' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Radio Canada' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'Radley' => 
   array (
