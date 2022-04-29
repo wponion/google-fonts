@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-04-28 07:32:34:am
+// Last Updated : 2022-04-29 06:57:16:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -5233,6 +5233,14 @@ return array (
     700 => 'Bold 700',
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
+  ),
+  'Noto Emoji' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'Noto Kufi Arabic' => 
   array (
