@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-05-24 07:12:00:am
+// Last Updated : 2022-05-25 07:11:12:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -312,6 +312,9 @@ return array (
   'Andika' => 
   array (
     400 => 'Regular 400',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'Andika New Basic' => 
   array (
@@ -1280,6 +1283,14 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Blaka' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Blaka Hollow' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Blinker' => 
   array (
     100 => 'Thin 100',
@@ -1914,6 +1925,15 @@ return array (
     '700italic' => 'Bold 700 Italic',
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
+  ),
+  'Crimson Text' => 
+  array (
+    400 => 'Regular 400',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'Croissant One' => 
   array (
@@ -7247,6 +7267,11 @@ return array (
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
   ),
   'Radley' => 
   array (
@@ -8311,6 +8336,14 @@ return array (
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
   ),
+  'Spline Sans Mono' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
   'Squada One' => 
   array (
     400 => 'Regular 400',
@@ -8600,6 +8633,31 @@ return array (
     700 => 'Bold 700',
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
+  ),
+  'Tiro Bangla' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
+  ),
+  'Tiro Gurmukhi' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
+  ),
+  'Tiro Kannada' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
+  ),
+  'Tiro Tamil' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
+  ),
+  'Tiro Telugu' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
   ),
   'Titan One' => 
   array (
