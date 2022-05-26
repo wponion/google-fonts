@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-05-25 07:11:12:am
+// Last Updated : 2022-05-26 07:11:58:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -8635,6 +8635,21 @@ return array (
     '700italic' => 'Bold 700 Italic',
   ),
   'Tiro Bangla' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
+  ),
+  'Tiro Devanagari Hindi' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
+  ),
+  'Tiro Devanagari Marathi' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
+  ),
+  'Tiro Devanagari Sanskrit' => 
   array (
     400 => 'Regular 400',
     '400italic' => 'Regular 400 Italic',
