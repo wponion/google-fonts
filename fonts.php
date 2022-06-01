@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-05-31 07:10:32:am
+// Last Updated : 2022-06-01 07:23:16:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -1608,6 +1608,13 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Charis SIL' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
+  ),
   'Charm' => 
   array (
     400 => 'Regular 400',
@@ -2808,6 +2815,13 @@ return array (
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
+  'Gentium Plus' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+    '400italic' => 'Regular 400 Italic',
+    '700italic' => 'Bold 700 Italic',
+  ),
   'Geo' => 
   array (
     400 => 'Regular 400',
@@ -3584,6 +3598,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Joan' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Jockey One' => 
   array (
     400 => 'Regular 400',
@@ -3832,6 +3850,10 @@ return array (
     400 => 'Regular 400',
   ),
   'Kdam Thmor' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Kdam Thmor Pro' => 
   array (
     400 => 'Regular 400',
   ),
@@ -6590,6 +6612,10 @@ return array (
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
   ),
+  'Nuosu SIL' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Odibee Sans' => 
   array (
     400 => 'Regular 400',
@@ -8499,6 +8525,11 @@ return array (
   'Syne Tactile' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Tai Heritage Pro' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
   ),
   'Tajawal' => 
   array (
