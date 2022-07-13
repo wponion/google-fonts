@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-07-12 07:20:53:am
+// Last Updated : 2022-07-13 07:16:05:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -331,13 +331,6 @@ return array (
     '800italic' => 'Extra Bold 800 Italic',
   ),
   'Andika' => 
-  array (
-    400 => 'Regular 400',
-    700 => 'Bold 700',
-    '400italic' => 'Regular 400 Italic',
-    '700italic' => 'Bold 700 Italic',
-  ),
-  'Andika New Basic' => 
   array (
     400 => 'Regular 400',
     700 => 'Bold 700',
@@ -3972,10 +3965,6 @@ return array (
     400 => 'Regular 400',
   ),
   'Kavoon' => 
-  array (
-    400 => 'Regular 400',
-  ),
-  'Kdam Thmor' => 
   array (
     400 => 'Regular 400',
   ),
