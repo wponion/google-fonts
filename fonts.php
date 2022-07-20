@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-07-19 07:29:48:am
+// Last Updated : 2022-07-20 07:15:10:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -2891,13 +2891,6 @@ return array (
     '700italic' => 'Bold 700 Italic',
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
-  ),
-  'Gentium Basic' => 
-  array (
-    400 => 'Regular 400',
-    700 => 'Bold 700',
-    '400italic' => 'Regular 400 Italic',
-    '700italic' => 'Bold 700 Italic',
   ),
   'Gentium Book Basic' => 
   array (
