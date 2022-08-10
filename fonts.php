@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-08-09 07:25:54:am
+// Last Updated : 2022-08-10 07:07:16:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -18,6 +18,10 @@ return array (
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
+  ),
+  'Aboreto' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Abril Fatface' => 
   array (
@@ -270,7 +274,17 @@ return array (
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
   ),
+  'Alumni Sans Collegiate One' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
+  ),
   'Alumni Sans Inline One' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
+  ),
+  'Alumni Sans Pinstripe' => 
   array (
     400 => 'Regular 400',
     '400italic' => 'Regular 400 Italic',
@@ -2168,6 +2182,13 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'DynaPuff' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
   'Dynalight' => 
   array (
     400 => 'Regular 400',
@@ -2561,6 +2582,16 @@ return array (
   'Festive' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Figtree' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Finger Paint' => 
   array (
@@ -5236,6 +5267,15 @@ return array (
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
     900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
   ),
   'My Soul' => 
   array (
@@ -6440,6 +6480,17 @@ return array (
   'Noto Serif Gurmukhi' => 
   array (
     100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Noto Serif HK' => 
+  array (
     200 => 'Extra Light 200',
     300 => 'Light 300',
     400 => 'Regular 400',
@@ -7797,7 +7848,31 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Rubik Burned' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Rubik Dirt' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Rubik Distressed' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Rubik Glitch' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Rubik Iso' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Rubik Marker Hatch' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Rubik Maze' => 
   array (
     400 => 'Regular 400',
   ),
@@ -8178,6 +8253,11 @@ return array (
     400 => 'Regular 400',
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Silkscreen' => 
+  array (
+    400 => 'Regular 400',
     700 => 'Bold 700',
   ),
   'Simonetta' => 
