@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-08-31 07:43:38:am
+// Last Updated : 2022-09-01 07:20:57:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -2799,6 +2799,7 @@ return array (
   'Fruktur' => 
   array (
     400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
   ),
   'Fugaz One' => 
   array (
