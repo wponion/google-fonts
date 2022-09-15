@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-09-14 07:28:29:am
+// Last Updated : 2022-09-15 07:37:13:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -322,6 +322,10 @@ return array (
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
   ),
+  'Amiri Quran' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Amita' => 
   array (
     400 => 'Regular 400',
@@ -581,6 +585,11 @@ return array (
     400 => 'Regular 400',
   ),
   'Aref Ruqaa' => 
+  array (
+    400 => 'Regular 400',
+    700 => 'Bold 700',
+  ),
+  'Aref Ruqaa Ink' => 
   array (
     400 => 'Regular 400',
     700 => 'Bold 700',
@@ -1329,6 +1338,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Blaka Ink' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Blinker' => 
   array (
     100 => 'Thin 100',
@@ -1442,6 +1455,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Bungee Spice' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Butcherman' => 
   array (
     400 => 'Regular 400',
@@ -1482,6 +1499,17 @@ return array (
     400 => 'Regular 400',
   ),
   'Cairo' => 
+  array (
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
+  'Cairo Play' => 
   array (
     200 => 'Extra Light 200',
     300 => 'Light 300',
@@ -5290,6 +5318,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Nabla' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Nanum Brush Script' => 
   array (
     400 => 'Regular 400',
@@ -5428,6 +5460,10 @@ return array (
     700 => 'Bold 700',
     '400italic' => 'Regular 400 Italic',
     '700italic' => 'Bold 700 Italic',
+  ),
+  'Noto Color Emoji' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Noto Emoji' => 
   array (
@@ -7644,6 +7680,17 @@ return array (
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+  ),
+  'Reem Kufi Fun' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Reem Kufi Ink' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Reenie Beanie' => 
   array (
