@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-09-27 07:29:49:am
+// Last Updated : 2022-09-28 07:30:59:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -211,6 +211,10 @@ return array (
     400 => 'Regular 400',
   ),
   'Alike Angular' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Alkalami' => 
   array (
     400 => 'Regular 400',
   ),
@@ -5530,6 +5534,8 @@ return array (
   'Noto Nastaliq Urdu' => 
   array (
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
   ),
   'Noto Rashi Hebrew' => 
@@ -5774,6 +5780,18 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Noto Sans Ethiopic' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
   'Noto Sans Georgian' => 
   array (
     100 => 'Thin 100',
@@ -5890,6 +5908,8 @@ return array (
   'Noto Sans Javanese' => 
   array (
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
   ),
   'Noto Sans KR' => 
@@ -6164,8 +6184,13 @@ return array (
   'Noto Sans Oriya' => 
   array (
     100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
   'Noto Sans Osage' => 
