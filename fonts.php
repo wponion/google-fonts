@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2022-11-09 07:21:15:am
+// Last Updated : 2022-11-10 07:14:24:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -2767,6 +2767,11 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Fragment Mono' => 
+  array (
+    400 => 'Regular 400',
+    '400italic' => 'Regular 400 Italic',
+  ),
   'Francois One' => 
   array (
     400 => 'Regular 400',
@@ -3486,6 +3491,16 @@ return array (
     700 => 'Bold 700',
   ),
   'IBM Plex Sans Hebrew' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'IBM Plex Sans JP' => 
   array (
     100 => 'Thin 100',
     200 => 'Extra Light 200',
@@ -4872,6 +4887,14 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Marhey' => 
+  array (
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
   'Markazi Text' => 
   array (
     400 => 'Regular 400',
@@ -4970,8 +4993,13 @@ return array (
   ),
   'Merienda' => 
   array (
+    300 => 'Light 300',
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
   ),
   'Merienda One' => 
   array (
@@ -5634,6 +5662,9 @@ return array (
   'Noto Sans Bassa Vah' => 
   array (
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'Noto Sans Batak' => 
   array (
@@ -5980,6 +6011,18 @@ return array (
     800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
+  'Noto Sans Lao Looped' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+  ),
   'Noto Sans Lepcha' => 
   array (
     400 => 'Regular 400',
@@ -6070,6 +6113,10 @@ return array (
     800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
+  'Noto Sans Mende Kikakui' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Noto Sans Meroitic' => 
   array (
     400 => 'Regular 400',
@@ -6129,6 +6176,9 @@ return array (
   'Noto Sans New Tai Lue' => 
   array (
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'Noto Sans Newa' => 
   array (
@@ -6686,6 +6736,13 @@ return array (
     900 => 'Black 900',
   ),
   'Noto Serif Nyiakeng Puachue Hmong' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Noto Serif Oriya' => 
   array (
     400 => 'Regular 400',
     500 => 'Medium 500',
@@ -8462,6 +8519,16 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Sono' => 
+  array (
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+  ),
   'Sonsie One' => 
   array (
     400 => 'Regular 400',
@@ -9547,6 +9614,8 @@ return array (
   'Zen Old Mincho' => 
   array (
     400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
     700 => 'Bold 700',
     900 => 'Black 900',
   ),
