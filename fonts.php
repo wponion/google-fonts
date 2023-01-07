@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2023-01-06 06:45:43:am
+// Last Updated : 2023-01-07 06:42:32:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -56,6 +56,17 @@ return array (
     500 => 'Medium 500',
     600 => 'Semi-Bold 600',
     700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
   ),
   'Aguafina Script' => 
   array (
@@ -6414,6 +6425,10 @@ return array (
   array (
     400 => 'Regular 400',
   ),
+  'Noto Sans SignWriting' => 
+  array (
+    400 => 'Regular 400',
+  ),
   'Noto Sans Sinhala' => 
   array (
     100 => 'Thin 100',
@@ -6525,6 +6540,13 @@ return array (
   'Noto Sans Tamil Supplement' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Noto Sans Tangsa' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'Noto Sans Telugu' => 
   array (
@@ -6957,6 +6979,13 @@ return array (
     700 => 'Bold 700',
     800 => 'Extra Bold 800',
     900 => 'Black 900',
+  ),
+  'Noto Serif Toto' => 
+  array (
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'Noto Serif Yezidi' => 
   array (
@@ -8642,6 +8671,90 @@ return array (
   'Sofia' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Sofia Sans' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
+  ),
+  'Sofia Sans Condensed' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
+  ),
+  'Sofia Sans Extra Condensed' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
+  ),
+  'Sofia Sans Semi Condensed' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+    800 => 'Extra Bold 800',
+    900 => 'Black 900',
+    '100italic' => 'Thin 100 Italic',
+    '200italic' => 'Extra Light 200 Italic',
+    '300italic' => 'Light 300 Italic',
+    '400italic' => 'Regular 400 Italic',
+    '500italic' => 'Medium 500 Italic',
+    '600italic' => 'Semi-Bold 600 Italic',
+    '700italic' => 'Bold 700 Italic',
+    '800italic' => 'Extra Bold 800 Italic',
+    '900italic' => 'Black 900 Italic',
   ),
   'Solway' => 
   array (
