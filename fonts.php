@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2023-01-18 06:47:21:am
+// Last Updated : 2023-01-19 06:47:57:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -878,6 +878,7 @@ return array (
   'BIZ UDMincho' => 
   array (
     400 => 'Regular 400',
+    700 => 'Bold 700',
   ),
   'BIZ UDPGothic' => 
   array (
@@ -887,6 +888,7 @@ return array (
   'BIZ UDPMincho' => 
   array (
     400 => 'Regular 400',
+    700 => 'Bold 700',
   ),
   'Babylonica' => 
   array (
@@ -8759,6 +8761,10 @@ return array (
     '700italic' => 'Bold 700 Italic',
     '800italic' => 'Extra Bold 800 Italic',
     '900italic' => 'Black 900 Italic',
+  ),
+  'Solitreo' => 
+  array (
+    400 => 'Regular 400',
   ),
   'Solway' => 
   array (
