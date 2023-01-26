@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2023-01-25 06:43:20:am
+// Last Updated : 2023-01-26 06:43:36:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -6280,7 +6280,7 @@ return array (
     800 => 'Extra Bold 800',
     900 => 'Black 900',
   ),
-  'Noto Sans N Ko' => 
+  'Noto Sans NKo' => 
   array (
     400 => 'Regular 400',
   ),
@@ -6869,13 +6869,6 @@ return array (
     900 => 'Black 900',
   ),
   'Noto Serif NP Hmong' => 
-  array (
-    400 => 'Regular 400',
-    500 => 'Medium 500',
-    600 => 'Semi-Bold 600',
-    700 => 'Bold 700',
-  ),
-  'Noto Serif Nyiakeng Puachue Hmong' => 
   array (
     400 => 'Regular 400',
     500 => 'Medium 500',
