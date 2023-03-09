@@ -1,5 +1,5 @@
 <?php
-// Last Updated : 2023-03-08 06:52:47:am
+// Last Updated : 2023-03-09 06:53:01:am
 if ( ! defined( "ABSPATH") ) { die; } 
 return array (
   'ABeeZee' => 
@@ -5102,6 +5102,52 @@ return array (
   'Mate SC' => 
   array (
     400 => 'Regular 400',
+  ),
+  'Material Icons' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Material Icons Outlined' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Material Icons Sharp' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Material Icons Two Tone' => 
+  array (
+    400 => 'Regular 400',
+  ),
+  'Material Symbols Outlined' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Material Symbols Rounded' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
+  ),
+  'Material Symbols Sharp' => 
+  array (
+    100 => 'Thin 100',
+    200 => 'Extra Light 200',
+    300 => 'Light 300',
+    400 => 'Regular 400',
+    500 => 'Medium 500',
+    600 => 'Semi-Bold 600',
+    700 => 'Bold 700',
   ),
   'Maven Pro' => 
   array (
